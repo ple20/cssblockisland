@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+    <title>Menu Example</title>
+    <!-- source w3 schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="content">
+    <header>
+        <h1>Block Island</h1>
+    </header>
+        <nav class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="gettinghere.html"   class="active">Getting Here</a>
+                <a href="wheretostay.html">Where to Stay</a>
+                <a href="thingstodo.html">Things to Do</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+
+  <div class="main">
+<h2>Ferry</h2>
+The most common way to travel to Block Island is by ferry. Below is information for each ferry type:
+</div>
+
+  <table class="mainTable">
+    <tr>
+      <td><strong>Ferry Type</strong></td>
+      <td><strong>Departs</strong></td>
+      <td><strong>Time of Year</strong></td>
+      <td><strong>Trip Duration</strong></td>
+      <td><strong>Vehicle-Friendly</strong></td>
+      <td><strong>Needs Reservations</strong></td>
+    </tr>
+    <tr>
+      <td>Block Island Ferry</td>
+      <td>Point Judith, RI</td>
+      <td>Year-Round</td>
+      <td>55 minutes</td>
+      <td>Yes</td>
+      <td>For Passengers: No
+        <div></div>
+      For Vehicles: Yes</td>
+    </tr>
+    <tr>
+      <td>Block Island Hi-Speed Ferry</td>
+      <td>Point Judith, RI</td>
+      <td>May - October</td>
+      <td>30 minutes</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Fall River to Block Island Ferry</td>
+      <td>Fall River, MA /
+      <div></div>
+      Newport, RI</td>
+      <td>June - September</td>
+      <td>1 hour to Newport /
+      <div></div>
+      2 hours & 15 minutes to Block Island</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Block Island Express</td>
+      <td>New London, CT</td>
+      <td>May - September</td>
+      <td>1 hour & 20 minutes</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Viking Fast Ferry</td>
+      <td>Montauk, NY</td>
+      <td>Memorial Day - Labor Day</td>
+      <td>1 hour</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+  </table>
+
+<div class="main">
+<em>Even if not required, it's recommended to make reservations in advance for peak season (May - August).</em>
+<div>
+
+<img src="blockislandimages/ferry.jpg" alt="profile" width="500" align=right hspace=5>
+
+<h2>Plane</h2>
+
+Air service into <strong>Block Island Airport (BID)</strong> is offered daily, year-round. from Westerly, RI via New england Airlines. Flight time is 12 minutes. Charter flights through the airline can also be arranged from airports throughout New England.
+BID is also home to Bethany's  Airport Diner, a popular spot for breakfast and lunch.
+
+<h2>Boat / Harbor</h2>
+Block Island is home to two harbors: <strong>New Harbor</strong>, on the east side of the island, and <strong>Old Harbor</strong>, on the west side of the island, in the center of town. Both offer space for anchoring on a <em>first come first serve</em> basis.
+
+</div>
+</div>
+</div>
+
+
+
+        <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
